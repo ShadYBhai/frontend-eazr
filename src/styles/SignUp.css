@@ -1,0 +1,69 @@
+.sign-page {
+  background-image: url("../assets/background.png");
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.signup-page {
+  max-width: 380px;
+  margin: 0 auto;
+  padding: 40px;
+  background: #e6f1f9;
+  border-radius: 12px 12px 12px 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(to bottom, #f8f8f8, #e0e0e0);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.input-field {
+  width: 290px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.05) inset;
+
+  font-family: Manrope;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  background: #1b75ba;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.note {
+  font-size: 14px;
+  text-align: center;
+  color: #888;
+  margin-top: 20px;
+}
