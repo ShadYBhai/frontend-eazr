@@ -63,7 +63,8 @@ const StyledNav = styled.nav`
        padding: 10px;
        width: 100px;
         border-radius: 6px;
-        border: 2px solid #0358ac;
+        /* border: 2px solid #0358ac; */
+        border: none;
 ;
         background: transparent;
         color: white;
@@ -90,7 +91,7 @@ const StyledNav = styled.nav`
     font-family: "Moul", cursive;
     font-weight: 400;
     @media (max-width: 1250px) {
-      font-size: 1rem;
+      font-size: 2rem;
     }
   }
   span {
