@@ -7,12 +7,12 @@ import Login from './Components/Login'
 
 function App() {
   const location = useLocation();
-  const hideNavbar = location.pathname == '/signin' || location.pathname === '/login';
+  const hideNavbar = location.pathname == '/' || location.pathname === '/login';
   return (
     <div className="App">
       {!hideNavbar && <Navbar />}
       <Routes>
-        <Route path="/signin" element={<SignupPage />} />
+        <Route path="/" element={<SignupPage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/dashboard" element={<UserProfile name={'ashish'} email={'ashish'} dateOfBirth={'1999'} />} />
       </Routes>

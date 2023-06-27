@@ -43,7 +43,7 @@ const Rocket = () => {
                         </div>
                         <button type="submit">Launch</button>
                     </form>
-                    <Link to='/signin' className='link'>Dont have the account? Sign up</Link>
+                    <Link to='/' className='link'>Dont have the account? Sign up</Link>
                 </div>
 
             </FormComponent>
