@@ -14,7 +14,7 @@ export const Navbar = () => {
         localStorage.removeItem('userData');
         localStorage.removeItem('user')
         localStorage.removeItem('profilePicture')
-        history('/signin');
+        history('/');
     };
 
     return (
